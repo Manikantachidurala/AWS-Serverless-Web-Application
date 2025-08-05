@@ -18,3 +18,32 @@ This application includes:
 
 ---
 
+<img width="877" height="391" alt="aws" src="https://github.com/user-attachments/assets/879efb54-9259-49ff-bab4-7ecf87a4dfc5" />
+
+---
+
+## 🔧 Setup Instructions
+
+1. Create an **S3 bucket**, upload your frontend files, and enable static website hosting.
+2. Create a **CloudFront distribution** with your S3 bucket as the origin.
+3. Set up **API Gateway** endpoints for `/get` and `/post`.
+4. Write **Lambda functions** in Python to handle API calls.
+5. Create a **DynamoDB table** with a suitable key schema.
+6. Attach appropriate **IAM roles** to your Lambda functions for DynamoDB access.
+7. Connect all components and test the application.
+
+---
+
+## ✅ Project Outcome
+
+- Static web content served securely and quickly using CloudFront + S3
+- API calls handled by Lambda via API Gateway
+- Data operations (read/write) done in DynamoDB
+- Serverless, scalable, and cost-effective architecture
+
+---
+
+
+
+---
+ 
